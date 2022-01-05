@@ -1,5 +1,5 @@
 {
-  "name": "automatizacao-front-end-npm",
+  "name": "projeto-gulp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Claudeilton Dantas",
+  "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.45.2"
+  },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "moment": "^2.29.1"
+    "git-commit-msg-linter": "^3.2.8",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0"
   }
 }
