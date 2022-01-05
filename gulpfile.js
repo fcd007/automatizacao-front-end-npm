@@ -79,10 +79,11 @@ function watch() {
 //inicia a tarefa de watch
 // gulp.task('watch', watch);
 //tarefa padrão do Gulp
-gulp.task('default', gulp.parallel(watch,  browser, compilaSass, gulpJS, pluginJS));
 
 exports.compilaSass = compilaSass;
 exports.gulpJS = gulpJS;
 exports.pluginJS = pluginJS;
 exports.browser = browser;
 exports.watch = watch;
+
+exports.default = gulp.parallel(watch,  browser, compilaSass, gulpJS, pluginJS);
