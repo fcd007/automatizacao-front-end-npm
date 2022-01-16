@@ -1,4 +1,4 @@
-# Projeto Automação Front-End
+# Projeto Automação Front-End NPM
 
 ## RESUMO
 
